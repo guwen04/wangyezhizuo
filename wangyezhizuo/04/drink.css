@@ -1,0 +1,21 @@
+/*一条CSS*/
+p{font-family: Arual;
+color:maroon
+  }
+h1{
+    font-family: Arual;
+    color:grey;
+  }
+h2{
+    font-family:Arial;
+    color: grey;
+  }
+h1,h2{
+      font-family: Arial;
+      color: grey;
+      }
+h1{
+    border-bottom: 1px solid black;
+  }
+em {font-family: "symbol";
+    }
