@@ -1,0 +1,15 @@
+/*css*/
+body{
+    font-size: small;
+    font-family:'Verdana','Helvetica','Arial' ;
+    line-height: 5em;
+}
+h1,h2{
+    color: #007e7e;
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1.3em;
+}
