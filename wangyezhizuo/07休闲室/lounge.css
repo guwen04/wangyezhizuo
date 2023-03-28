@@ -2,7 +2,7 @@
 body{
     font-size: small;
     font-family:'Verdana','Helvetica','Arial' ;
-    line-height: 5em;
+    line-height: 1.6em;
 }
 h1,h2{
     color: #007e7e;
@@ -12,4 +12,36 @@ h1{
 }
 h2{
     font-size: 1.3em;
+}
+.guarantee{
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+    font-family: 'Georgia','Time New Roman';
+    line-height:1.9em;
+    font-style: italic;
+    color:#444444;
+    background-image:url(images/background.gif);
+    background-repeat:no-repeat;
+    background-position: top left;
+    padding: 25px;
+    padding-left: 80px;
+    margin-right: 250px;
+
+
+
+
+    border-style: outest;
+    border-width: medium;
+    border-bottom-left-radius: 3em;
+    border-radius: 100px; 
+    border-color:chocolate;
+
+    border-style: dashed;
+    border-color: white;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
 }
