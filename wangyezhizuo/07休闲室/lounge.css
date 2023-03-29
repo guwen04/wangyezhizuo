@@ -37,11 +37,11 @@ h2{
     border-style: outest;
     border-width: medium;
     border-bottom-left-radius: 3em;
-    border-radius: 100px; 
     border-color:chocolate;
 
     border-style: dashed;
     border-color: white;
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 2em;
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+
 }
