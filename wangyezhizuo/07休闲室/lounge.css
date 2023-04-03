@@ -45,3 +45,29 @@ h2{
     border-bottom-left-radius: 3em;
 
 }
+.elixirs{
+    border:thin solid #007e7e;
+    width: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    background:url(images/cocktail.gift) repeat-x;
+    text-align: center;
+    line-height: 1;
+}
+
+.exlirs h2{
+    color:black
+}
+.elixirs h3{
+    color: #d12c47;
+}
+
+.footer
+{
+    font-size: .5em;
+    text-align: center;
+    line-height:normal;
+    margin-top: 30px;
+}
