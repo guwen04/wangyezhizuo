@@ -56,6 +56,16 @@ h2{
     text-align: center;
     line-height: 1;
 }
+.exlirs a:link{
+    color:green;
+}
+.exlirs a:visited{
+    color:#333333;
+}
+.exlirs a:hover{
+    background: #f88396;
+    color: #0d5353;
+}
 
 .exlirs h2{
     color:black
@@ -70,4 +80,10 @@ h2{
     text-align: center;
     line-height:normal;
     margin-top: 30px;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
 }
