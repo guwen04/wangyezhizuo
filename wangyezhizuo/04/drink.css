@@ -19,3 +19,10 @@ h1{
   }
 em {font-family: "symbol";
     }
+
+    .came{
+      color: brown;
+    }
+    #iname{
+      color: blueviolet;
+    }
