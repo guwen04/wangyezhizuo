@@ -26,3 +26,13 @@ em {font-family: "symbol";
     #iname{
       color: blueviolet;
     }
+
+    body h1{
+      color:aqua;
+    }
+    p h1{
+      color: blue;
+    }
+    h1 {
+      color:darkorange;
+    }

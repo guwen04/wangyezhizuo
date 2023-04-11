@@ -55,14 +55,15 @@ h2{
     background:url(images/cocktail.gift) repeat-x;
     text-align: center;
     line-height: 1;
+    float: right;
 }
-.exlirs a:link{
+.elixirs a:link{
     color:green;
 }
-.exlirs a:visited{
+.elixirs a:visited{
     color:#333333;
 }
-.exlirs a:hover{
+.elixirs a:hover{
     background: #f88396;
     color: #0d5353;
 }
