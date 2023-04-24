@@ -5,6 +5,11 @@ body {
   margin:           0px;
 }
 
+.hearderSlogan{
+  float:right;
+}
+
+
 .header {
   background-color: #675c47;
   margin:           0px;
@@ -41,6 +46,7 @@ div.tableRow{
   padding:          15px;
   display: table-cell;
   vertical-align: top;  
+  width: 280px;
 }
 
 .footer {
@@ -74,3 +80,5 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
+
+
