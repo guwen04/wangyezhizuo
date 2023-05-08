@@ -12,14 +12,15 @@ body {
 }
 
 .header-logo{
+  background-image: url('imges/header.gif');
   background-position-x: 0px;
   background-position-y: 0px;
-  background-image: url('imges/header.gif');
+
 }
 
 .header-slogan{
-  background-position: 260px 0px;
   background-image: url('imges/header.gif'); 
+  background-position: 260px 0px;
   float: right;
 }
 
@@ -27,6 +28,7 @@ body {
   position: absolute;
   top: 30px;
   left: 45%;
+  transition:left ;
 }
 
 
