@@ -54,29 +54,29 @@ body {
 }
 
 
-.header {
+.top{
   background-color: #675c47;
   margin:           0px;
   height:           108px;
 }
 
-div.tableContainer{
+div#tableContainer{
   display: table;
   border-spacing: 10px;
 }
 
-div.tableRow{
+div#tableRow{
   display: table-row;
 }
 
-.drinks {
+#drinks {
     display: table-cell;
     vertical-align: top;
     background-color: #efe5d0;
     padding: 15px;
 }
 
-.main {
+#main {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
@@ -125,4 +125,12 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
+/* added section#blog for blog */
+section.main, section.blog {
+  display: table-cell;
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
 
