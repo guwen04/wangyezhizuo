@@ -134,3 +134,28 @@ section.main, section.blog {
   vertical-align: top;
 }
 
+ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+ul li {
+  background-color: aqua;
+	display: inline;
+	padding: 10px 100px 50px 100px;
+}
+ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+  /*
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+*/
+}
+ul li.selected {
+	background-color:#b766;
+}
+ul li img{
+  width: 10px;
+}

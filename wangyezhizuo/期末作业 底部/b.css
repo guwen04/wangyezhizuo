@@ -1,0 +1,209 @@
+body{
+  margin: 0;
+}
+
+.headerbackground{
+  background-color: #005ba8;
+
+}
+
+.headerarea{
+  text-align: left;
+  width: 1000px;
+  margin: 0 auto o auto;
+  position: relative;
+}
+
+.headermage{
+  height: 110px;
+  min-height: 110px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+}
+
+.topnav ul{
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  letter-spacing: -0.4em;
+}
+.topnav ul li{
+  display: inline;
+}
+
+.topnav ul li.page1{
+  background-position: center 20px;
+  background-repeat: no-repeat;
+  background-size: 45px;
+}
+
+
+
+
+
+.footertop{
+  width: 100%;
+  background-color: #00a0e9;
+  display: block;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+
+}
+
+.footername ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style-type: none;
+}
+
+.footername ul li{
+  margin-right: 20px;
+  display: inline;
+  font-size: 13px;
+}
+
+.footername ul li a{
+  color: #ffffff;
+  white-space: nowerap;
+  text-decoration: none;
+
+}
+
+.footername ul li a:hover{
+  color: rgb(102, 101, 101);
+  text-decoration: underline;
+}
+
+.footername ul li a::before{
+  content: ">";
+  display: inline-block;
+  padding: 0px 10px 0px 0px;
+
+}
+
+.toplogo a{
+  display: block;
+  background-size: contain;
+  width: 225px;
+  height: 88px;
+}
+
+.toplogo img{
+  width: 200px;
+  position: relative;
+  left: 50px;
+}
+
+
+
+
+
+
+
+
+
+.footercover{
+  background-color: #005ba8;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.logo img{
+  width: 118px;
+  height: 89px;
+  background-position: center,center;
+  margin: 25px 0px 0 180px;
+}
+
+.logonamewidth{
+  width: 350px;
+  position: relative;
+  left: 20px;
+
+}
+
+
+.logoname img{
+  position: relative;
+  top: 10px;
+  margin: 0px 55px ;
+  width: 260px;
+  height: 115px;
+  background-position: center center;
+  padding: 0;
+}
+
+
+  .footerwenzi ul {
+  position: relative;
+  right: 320px;
+  top: 140px;
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+
+}
+
+.footerwenzi ul li{
+  display: inline;
+	padding: 5px 10px 5px 10px;
+  color: rgb(255,255,255);
+  font-size: 12.5px;
+  font-weight:lighter;
+}
+
+.footerwenzi ul li a{
+  color: #ffffff;
+
+}
+
+.footerwenzi ul li a:hover{
+  text-decoration:none;
+}
+
+.footerwenzi ul li a::before{
+  content: ">";
+  display: inline-block;
+  padding: 0px 10px 0px 0px;
+
+}
+
+.footerwenzi ul li a:link, nav ul li a:visited {
+	color: rgb(255, 255, 255);
+	border-bottom: none;
+}
+
+.footerend{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:#ffffff;
+  position: relative;
+  top: 51px;
+}
+
+.footerendzi{
+  position: relative;
+ left: 480px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: opx;
+  margin-inline-end: 0px;
+  font-size: 12px;
+  color: rgb(102, 101, 101);
+}
