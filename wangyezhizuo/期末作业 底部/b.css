@@ -4,6 +4,7 @@ body{
 
 .headerbackground{
   background-color: #005ba8;
+  height: 110px;
 
 }
 
@@ -20,28 +21,117 @@ body{
   display: inline-flex;
   align-items: center;
   position: relative;
+  left: 87px;
   z-index: 3;
 }
 
-.topnav ul{
-  list-style-type: none;
-  display: block;
-  text-align: center;
-  letter-spacing: -0.4em;
+.topwenzibackground{
+  padding: 17px 0px 0px 25px;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 100px;
 }
-.topnav ul li{
-  display: inline;
+.topzisize{
+  display: flex;
+  align-items: center;
+}
+.topzisize ul li{
+    list-style-type: none;
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: small;
+    font: weight 380px;;
+    position: relative;
+    left: 930px;
+    top: -115px;
+    display: initial;
 }
 
-.topnav ul li.page1{
-  background-position: center 20px;
-  background-repeat: no-repeat;
-  background-size: 45px;
+.topzisize ul li a{
+  box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    line-height: 1;
+    padding: 2px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
 }
 
+  .fangdajin{
+    position: relative;
+    left: 1080px;
+    top: -150px;
+  }
+
+  .fangdajin img{
+    width: 25px;
+  }
 
 
 
+.topzisize ul li.zhong{
+  margin: 10px;
+  background-color:#00bfff;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.topzisize ul li a{
+  color: #ffffff;
+  white-space: nowerap;
+  text-decoration: none;
+}
+
+.topzisize ul li.small a:hover{
+  background-color:#00bfff;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.topzisize ul li.big a:hover{
+  background-color:#00bfff;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.toplanguager{
+  position: relative;
+  padding: 15px 0px 0px 0px;
+}
+
+.diqiu img{
+  width: 20px;
+  position: relative;
+  left: 970px;
+  top: -175px;
+}
+
+.topboder{
+  border-width: thin;
+	border-style: solid;
+	border-color:#000000;
+  width: 100px;
+  
+}
+
+.languager{
+  position: relative;
+  left: 1000px;
+  top: -200px;
+  color: #ffffff;
+  display: flex;
+}
 
 .footertop{
   width: 100%;
@@ -199,7 +289,7 @@ body{
 
 .footerendzi{
   position: relative;
- left: 480px;
+  left: 650px;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: opx;
