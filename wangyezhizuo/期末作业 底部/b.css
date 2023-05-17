@@ -117,7 +117,10 @@ body{
   top: -175px;
 }
 
-.topboder{
+.boder{
+  position: relative;
+  left: 1000px;
+  top: -190px;
   border-width: thin;
 	border-style: solid;
 	border-color:#000000;
@@ -131,6 +134,7 @@ body{
   top: -200px;
   color: #ffffff;
   display: flex;
+  z-index: 1000;
 }
 
 .footertop{
